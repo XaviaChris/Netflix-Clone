@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Premium</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
+    6.4.0/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6370b1e013.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;
+    500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashbord-container">
+      <header class="header" id="header">
+        <div class="header-left">
+          <a href="#" class="logo">
+            <i class="fas fa-play-circle"></i>
+            NETFLIX
+          </a>
+          <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="nav-menu">
+            <a href="#" class="active">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">New & Popular</a>
+            <a href="#"> My List</a>
+          </div>
+        </div>
+        <div class="user-menu">
+          <div class="search-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="notification-icon">
+            <i class="fas fa-bell"></i>
+          </div>
+          <div class="user-profile">
+            <img src="./assets/images/john.jpg" alt="user profile" />
+            <span>John</span>
+          </div>
+        </div>
+      </header>
+      <div class="main-container">
+        <aside class="sidebar">
+          <div class="sidebar-section">
+            <h3>Menu</h3>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-home"></i>Home
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-fire"></i>New & Popular
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-bookmark"></i>My List
+            </a>
+          </div>
+          <div class="sidebar-section">
+            <h3>Categories</h3>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-play-circle"></i>Movies
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-tv"></i>TV Shows
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-music"></i>Music
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-gamepad"></i>Games
+            </a>
+          </div>
+
+          <div class="sidebar-section">
+            <h3>Genres</h3>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-theater-masks"></i>Action
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-laugh"></i>Comedy
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-music"></i>Music
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-heart"></i>Romance
+            </a>
+
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-ghost"></i>Horror
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-rocket"></i>Sci-Fi
+            </a>
+          </div>
+          <div class="sidebar-section">
+            <h3>My Favorites</h3>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-home"></i>Saved Titles
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-fire"></i>Recently
+            </a>
+            <a href="#" class="sidebar-link active">
+              <i class="fas fa-bookmark"></i>Top Rated
+            </a>
+          </div>
+        </aside>
+        <main class="main">
+          <div class="hero-banner-container">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+              <h1 class="hero-title">Developers in Love</h1>
+              <p class="hero-description">
+                Two disciplined yet visionary developers, decided to build a
+                beautiful future together, with strong determination to face the
+                challeneges that life's situation throws at them and raise a
+                bloodline of brilliant developers.
+              </p>
+              <div class="hero-actions">
+                <button class="btn btn-play">
+                  <i class="fas fa-play"></i>Play
+                </button>
+                <button class="btn btn-info">
+                  <i class="fas fa-info-circle"></i>More Info
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile Hero Banner-->
+          <div class="mobile-hero-banner">
+            <div class="mobile-hero-bg"></div>
+            <div class="mobile-hero-content">
+              <h1 class="mobile-hero-title">Queen's Gambit</h1>
+              <p class="mobile-hero-description">
+                When a young girl, learns how to play chess like crazy vanishes,
+                a small town, uncovers a mystery involving secret experiments.
+              </p>
+              <div class="mobile-hero-bg-actions">
+                <button class="mobile-btn mobile-btn-play">
+                    <i class="fas fa-play"></i> Play
+                </button>
+                <button class="mobile-btn mobile-btn-info">
+                    <i class="fas fa-info-circle"></i>More Info
+                </button>
+              </div>
+              <div class="mobile-hero-badge">
+                <i class="fas fa-star"></i>9.5 New Season
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Row-->
+          <section class="content-row">
+            <div class="row-header">
+              <h2 class="row-title">Popular on Netflix</h2>
+              <a href="#" class="see-all"> See All</a>
+            </div>
+            <div class="content-grid">
+              <div class="content-card">
+                <img src="./assets/images/bending.png" alt="Bending" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Bending</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      8.5
+                    </div>
+                    <div>2021</div>
+                  </div>
+                </div>
+              </div>
+              <!--More Content Cards-->
+              <div class="content-card">
+                <img
+                  src="./assets/images/developer-couple2.png"
+                  alt="Developer Couple"
+                />
+
+                <div class="card-overlay">
+                  <div class="card-title">Developer Couple</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      8.5
+                    </div>
+                    <div>2025</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/brave.png" alt="Brave" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Brave</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      9.0
+                    </div>
+                    <div>2024</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/first-fist.png" alt="First Fist" />
+
+                <div class="card-overlay">
+                  <div class="card-title">First Fist</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      9.5
+                    </div>
+                    <div>2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/riding.png" alt="Riding" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Riding</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      8.3
+                    </div>
+                    <div>2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="content-row">
+            <div class="row-header">
+              <h2 class="row-title">Trending Now</h2>
+              <a href="#" class="see-all"> See All</a>
+            </div>
+            <div class="content-grid">
+              <div class="content-card">
+                <img src="./assets/images/forest.png" alt="Forest" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Forest</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      9.5
+                    </div>
+                    <div>2021</div>
+                  </div>
+                </div>
+              </div>
+              <!--More Content Cards-->
+              <div class="content-card">
+                <img src="./assets/images/arrival.png" alt="Arrival" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Arrival</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      8.0
+                    </div>
+                    <div>2025</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img
+                  src="./assets/images/heart-matters.png"
+                  alt="Heart Matters"
+                />
+
+                <div class="card-overlay">
+                  <div class="card-title">Heart Matters</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      9.0
+                    </div>
+                    <div>2024</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/the-earth.png" alt="The Earth" />
+
+                <div class="card-overlay">
+                  <div class="card-title">The Earth</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      9.5
+                    </div>
+                    <div>2023</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/the-dog.png" alt="The Dog" />
+
+                <div class="card-overlay">
+                  <div class="card-title">The Dog</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      7.5
+                    </div>
+                    <div>2022</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="content-row">
+            <div class="row-header">
+              <h2 class="row-title">New Releases</h2>
+              <a href="#" class="see-all"> See All</a>
+            </div>
+            <div class="content-grid">
+              <div class="content-card">
+                <img src="./assets/images/outbreak.png" alt="Outbreak" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Outbreak</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      7.0
+                    </div>
+                    <div>2022</div>
+                  </div>
+                </div>
+              </div>
+              <!--More Content Cards-->
+              <div class="content-card">
+                <img src="./assets/images/beneath.png" alt="Beneath" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Beneath</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      7.5
+                    </div>
+                    <div>2025</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/ethereal.png" alt="Ethereal" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Ethereal</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      7.5
+                    </div>
+                    <div>2024</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/eldora.png" alt="Eldora" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Eldora</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      9.5
+                    </div>
+                    <div>2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-card">
+                <img src="./assets/images/galaxy.png" alt="Galaxy" />
+
+                <div class="card-overlay">
+                  <div class="card-title">Galaxy</div>
+                  <div class="card-info">
+                    <div class="card-rating">
+                      <i class="fas fa-star"></i>
+                      8.3
+                    </div>
+                    <div>2022</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">Audio Description</a>
+          <a href="#">Help Center</a>
+          <a href="#">Gift Cards</a>
+          <a href="#">Media Center</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Jobs</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy</a>
+          <a href="#">Legal Notices</a>
+          <a href="#">Cookie Preference</a>
+          <a href="#">Corporate Information</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="service-code">Service Code: NF-2026</div>
+        <div class="copyright">
+          2026 Xavia Christopher. This is a demostration project only.
+        </div>
+      </footer>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
